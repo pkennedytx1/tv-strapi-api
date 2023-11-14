@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shows_to_watch_laters",
+  "info": {
+    "singularName": "shows-to-watch-later",
+    "pluralName": "shows-to-watch-laters",
+    "displayName": "Shows to Watch Later",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imdb_id": {
+      "type": "string"
+    },
+    "show_name": {
+      "type": "text"
+    },
+    "tv_maze_id": {
+      "type": "biginteger"
+    }
+  }
+}
